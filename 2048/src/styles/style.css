@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    height: 100vh;
+    background-color : rgb(245, 249, 253);
+    transition: all 0.5s ease-in-out;
+}
+
+.gameArea {
+    width: 55vw;
+    height: 50vh;
+    border: 1px solid black;
+    background-color:  rgb(245, 249, 253);
+    border: 0;
+    border-radius: 5%;
+    transition: all 0.5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.boxArea {
+    background-color: aliceblue;
+    border: 1px solid black;;
+}
+
+.box {
+    background-color: black;
+    color: yellow;
+    height: 110px;
+    width: 110px;
+    place-content: center;
+    text-align: center;
+    font-size: 3em;
+    transition: top,left,right,bottom 0.5s ease;
+    border: 1px solid white;
+}
