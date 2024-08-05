@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(245, 249, 253);
+  transition: all 0.5s ease-in-out;
+  background: url("https://imgs.search.brave.com/KiPZcITIdMzz8mcm-LAgOppzbK18Qv3Ta2djl0LKjtw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2E0LzAy/L2U2L2E0MDJlNmU5/MWQ4OGVlZjEzYjI1/ZjEzNzU3ZjAwMDZm/LmpwZw");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.gameArea {
+  width: 440px;
+  height: 440px;
+  background-color: rgba(136, 139, 137, 0.579);
+  border-radius: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.boxArea {
+  width: 110px;
+  height: 110px;
+  background-color: #ffffff6c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  color: #776e65;
+}
+
+.box {
+  color: rgb(11, 11, 11);
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  position: absolute;
+  transition: top 0.2s ease, left 0.2s ease;
+  border: 1px solid #776e65;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #151515;
+  margin-top: 12vh;
+  border: 0;
+  padding: 20px;
+  color: yellow;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+h1 {
+  margin-bottom: 50px;
+  color: yellow;
+}
